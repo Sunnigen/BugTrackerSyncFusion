@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bug Tracker</h1>
+    <h2>Update this!</h2>
+</div>
+
+<div class="text-center">
+    <ejs-kanban id="Kanban" keyField="Status" dataSource="ViewBag.TaskDetails">
+        <e-kanban-columns>
+            <e-kanban-column headerText="To Do" keyField="Open"></e-kanban-column>
+            <e-kanban-column headerText="In Progress" keyField="InProgress"></e-kanban-column>
+            <e-kanban-column headerText="Testing" keyField="Testing"></e-kanban-column>
+            <e-kanban-column headerText="Done" keyField="Close"></e-kanban-column>
+        </e-kanban-columns>
+        <e-kanban-swimlanesettings keyField="Assignee"></e-kanban-swimlanesettings>
+        <e-kanban-cardsettings headerField="Id" contentField="Summary"></e-kanban-cardsettings>
+    </ejs-kanban>
+</div>
