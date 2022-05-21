@@ -9,6 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugTracker.Library", "BugTr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BugTracker.Console", "BugTrackerConsole\BugTracker.Console.csproj", "{7B9CCE1E-127F-4D5B-9342-4DD376C278F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{34F7BB36-1A68-494B-850B-892DB9DBC687}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Procfile.txt = Procfile.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{0A51121F-1266-4276-8933-F9BF704CB5BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{0AAE9DF6-A8A7-4FCE-BFA3-419AE107C68A}"
+	ProjectSection(SolutionItems) = preProject
+		main.yaml = main.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +43,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A51121F-1266-4276-8933-F9BF704CB5BD} = {34F7BB36-1A68-494B-850B-892DB9DBC687}
+		{0AAE9DF6-A8A7-4FCE-BFA3-419AE107C68A} = {0A51121F-1266-4276-8933-F9BF704CB5BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46CA79DF-3CE7-4A19-A3E4-E561596AE71E}
