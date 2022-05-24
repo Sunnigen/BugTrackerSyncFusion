@@ -1,7 +1,7 @@
 # BugTracker
 Bug Tracker Application Created in C# ASP.NET Core!
 
-View product in use [here](https://bug-tracker.herokuapp.com/).
+View product in use [here](https://bug-tracker-syncfusion.herokuapp.com/).
 
 ## Application
 The Bug Tracker Software allows users, project managers and stakeholders to track of reported software bugs in software development projects.
